@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift_tests_clip}",
+            "name": "Debug swift_tests_clip",
+            "program": "${workspaceFolder:swift_tests_clip}/.build/debug/swift_tests_clip",
+            "preLaunchTask": "swift: Build Debug swift_tests_clip"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift_tests_clip}",
+            "name": "Release swift_tests_clip",
+            "program": "${workspaceFolder:swift_tests_clip}/.build/release/swift_tests_clip",
+            "preLaunchTask": "swift: Build Release swift_tests_clip"
+        }
+    ]
+}
